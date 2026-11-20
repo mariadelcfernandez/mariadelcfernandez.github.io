@@ -1,0 +1,11 @@
+# Nunca subas secretos ni entornos locales a un repositorio público.
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+.venv/
+venv/
+.DS_Store
+# Tus límites de privacidad se quedan en tu computadora.
+privado-NO-SUBIR.md
