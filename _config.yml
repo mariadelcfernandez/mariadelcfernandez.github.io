@@ -1,0 +1,7 @@
+# Configuración mínima para usuario.github.io (GitHub Pages).
+# El script scripts/verificar_sitio.py revisa este archivo y el title: de cada página.
+title: "María del Carmen Fernández · AI engineer"
+description: "Programadora universitaria rumbo a AI engineer: uso mi experiencia en testing para construir asistentes con IA que se puedan probar."
+
+# Opcional: un tema compatible con Pages. Quita el # de la línea siguiente si quieres probarlo.
+# theme: jekyll-theme-minimal
