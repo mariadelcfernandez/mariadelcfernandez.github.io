@@ -1,38 +1,48 @@
 ---
-title: "Día 1 · Ficha del proyecto y sitio bilingüe"
+title: "Expediente del proyecto"
 ---
 
-# Día 1 · Ficha del proyecto y sitio bilingüe
+# Expediente del proyecto
 
-## Qué hice
+Este expediente es el registro público de lo que sé hacer: crece un capítulo por sesión del curso. No es un producto para usar después; importan la claridad de las decisiones, la evaluación honesta y que otra persona pueda reproducir el trabajo.
 
-Elegí mi proyecto insignia (C · Recomendador de cursos) y mi ruta técnica (AI engineer), cerré la ficha del proyecto con un criterio de éxito medible y publiqué mi sitio en español e inglés en <https://mariadelcfernandez.github.io>.
+## Estado por sesión
 
-## Por qué
+| Sesión | Capítulo | Estado |
+|---|---|---|
+| Día 1 | Ficha del proyecto | Hecho: ver [ficha-proyecto.md](ficha-proyecto.md) |
+| Día 2 | Prototipo v0 y primera evaluación | Pendiente |
+| Día 3 | Arnés de evaluación | Pendiente |
+| Día 4 | Datos y modelo elegidos | Pendiente |
+| Día 5 | Automatización con aprobación humana | Pendiente |
+| Día 6 | RAG evaluado | Pendiente |
+| Día 7 | Agente con permisos | Pendiente |
+| Día 8 | Tabla de portabilidad y cierre | Pendiente |
 
-Elegí el recomendador de cursos porque en mi trabajo veo personas que no saben en qué capacitarse. Elegí la ruta AI engineer porque tengo base en programación, bases de datos y redes, y quiero actualizarme aplicándola a construir aplicaciones con IA.
+## 1. Problema y usuario
 
-## Cómo
+Ver la [ficha del proyecto](ficha-proyecto.md).
 
-1. Escribí un borrador de la ficha y luego la IA me entrevistó, una pregunta a la vez (Prompt 1). Comparé su propuesta con mi borrador y decidí sección por sección.
-2. Revisé mi CV hacia la ruta AI engineer con la IA (Prompt 2) y registré siete decisiones en [revision-ia.md](revision-ia.md): qué acepté, qué cambié y qué rechacé.
-3. Traduje mi texto al inglés con el Prompt 3, con frases simples, y comparé la verificación inversa con mi original.
-4. Armé las páginas, las subí a GitHub, activé GitHub Pages y corrí el script de verificación.
+## 2. Arquitectura y decisiones
 
-## Salida del script
+Pendiente desde el Día 2: un dibujo y de 2 a 3 decisiones (qué modelo, dónde corre, qué datos).
 
-```
-Todo en orden según las reglas automáticas. Haz ahora tu revisión de privacidad humana.
-```
+## 3. Evaluación
 
-La revisión de privacidad humana también la hice: no hay teléfono, domicilio ni nombres de empleadores; publico mi correo, GitHub y LinkedIn por decisión propia.
+Pendiente desde el Día 2 y completa en el Día 3: casos de prueba, rúbrica, resultados y dónde falla.
 
-## Qué falló y qué limita este trabajo
+## 4. Tabla de portabilidad
 
-- Las entrevistas con IA las hice en Claude Code y no en el chat de claude.ai; las reglas de los prompts fueron las mismas.
-- Mi criterio de éxito necesita una persona experta que revise las recomendaciones, y todavía no sé quién será.
-- El problema no tiene un número: el tiempo que se pierde al elegir mal un curso está sin medir.
-- «Capas que usarás» sigue sin definir hasta el Día 4.
-- El script usa reglas aproximadas y no detecta todo; por eso la revisión de privacidad la hice a mano.
+Pendiente en el Día 8: la misma tarea en Claude, en la API gratuita y en un modelo autohospedado, con calidad, costo y latencia.
 
-Archivos de esta carpeta: [revision-ia.md](revision-ia.md).
+## 5. Seguridad y privacidad
+
+Pendiente desde el Día 5: qué datos entran, qué permisos tiene y qué requiere aprobación humana.
+
+## 6. Cómo reproducirlo
+
+Pendiente en el Día 8: pasos para correrlo en diez minutos.
+
+## 7. Evidencia y siguientes pasos
+
+Pendiente: capturas, bitácora, historial de commits y qué haría después.
